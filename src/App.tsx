@@ -1,16 +1,13 @@
 import React from 'react';
-import { makeStyles } from '@material-ui/core/styles';
 import TextField from '@material-ui/core/TextField';
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
         <a
-          className="App-link"
+          className="Github-link"
           href="https://github.com/Walker-TW/Flashing-Lights"
           target="_blank"
           rel="noopener noreferrer"
