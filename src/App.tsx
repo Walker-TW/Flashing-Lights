@@ -18,8 +18,8 @@ function App() {
       <div>
       <TextField
           id="filled-full-width"
-          label="Label"
-          style={{ margin: 8 }}
+          label="Message"
+          style={{ margin: 4 }}
           placeholder="Write Some Text Here"
           helperText="Make it useful!"
           fullWidth

@@ -1,6 +1,6 @@
 .App {
   text-align: center;
-  background-color: #282c34;
+  background-color: grey;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -13,11 +13,19 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  font-size: calc(40px + 2vmin);
   color: white;
 }
 
-.Github-link {
+
+.Github-link{
+  animation:titleText 1.2s infinite;
   color: #61dafb;
 }
-
+@keyframes titleText{
+  0%{     color: #61dafb;    }
+  49%{    color: #61dafb; }
+  60%{    color: transparent; }
+  99%{    color:transparent;  }
+  100%{   color: #61dafb;    }
+}
