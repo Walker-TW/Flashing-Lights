@@ -1,5 +1,5 @@
 import React from 'react';
-import TextField from '@material-ui/core/TextField';
+import { TextEntry } from './Components/TextEntry'
 import './App.css';
 
 function App() {
@@ -16,19 +16,7 @@ function App() {
         </a>
       </header>
       <div>
-      <TextField
-          id="filled-full-width"
-          label="Message"
-          style={{ margin: 4 }}
-          placeholder="Write Some Text Here"
-          helperText="Make it useful!"
-          fullWidth
-          margin="normal"
-          InputLabelProps={{
-            shrink: true,
-          }}
-          variant="filled"
-        />
+        <TextEntry/>
       </div>
     </div>
   );
