@@ -1,4 +1,3 @@
-import React from 'react';
 import { TextEntry } from './Components/TextEntry'
 import './App.css';
 
