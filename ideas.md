@@ -4,8 +4,8 @@ An LED auto updated matrix
 
 ## T2D
 
-- Clean out Rasberry pi 3 and move info to 4?
-- Hook up both Pi's to seperate monitors?
+- Clean out Rasberry pi 3 and move info to 4? X
+- Hook up both Pi's to seperate monitors? X
 - Set-up CI/CD testing suite
 - Find a hosting service that is worthwhile?
 - Mayyyyyyybe Netifly?
@@ -18,7 +18,7 @@ An LED auto updated matrix
 
 1st
 
-- Order Compontents
+- Order Components
 - Have bootable text field that can take input?
 
 2nd
